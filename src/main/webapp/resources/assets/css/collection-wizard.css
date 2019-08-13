@@ -1,0 +1,84 @@
+.wizard { padding-left: 0px; margin-bottom: 0px; }
+
+.wizard li {
+	padding: 10px 12px 10px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	background: #efefef;
+	position: relative;
+	display: inline-block;
+	color: #999;
+}
+.wizard li:hover {
+	text-decoration:none;
+}
+.wizard li:before {
+	width: 0;
+	height: 0;
+	border-top: 20px inset transparent;
+	border-bottom: 20px inset transparent;
+	border-left: 20px solid #fff;
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+}
+.wizard li:after {
+	width: 0;
+	height: 0;
+	border-top: 18px inset transparent;
+	border-bottom: 20px inset transparent;
+	border-left: 20px solid #efefef;
+	position: absolute;
+	content: "";
+	top: 0;
+	right: -20px;
+	z-index: 2;
+}
+.wizard li:first-child:before,
+.wizard li:last-child:after {
+	border: none;
+}
+.wizard a:first-child {
+}
+.wizard a:last-child {
+}
+.wizard .badge {
+	margin: 0 5px 0 18px;
+	position: relative;
+	top: -1px;
+}
+.wizard li:first-child .badge {
+	margin-left: 0;
+}
+.wizard .current {
+	background: #007ACC;
+	color: #fff;
+}
+.wizard .current:after {
+	border-left-color: #007ACC;
+}
+.wizard .current .badge {
+	color: #007ACC;
+	background-color: #fff;
+}
+
+.wizard-content {
+	padding: 12px;
+	border: 1px solid #efefef;
+	margin-bottom: 0px;
+	
+}
+.wizard-bottom {
+	/*padding: 10px 20px 10px;*/
+	/*background-color: #f5f5f5;*/
+	padding: 10px 20px 0px 0px;
+	border-top: 1px solid #f5f5f5;
+}
+
+.wizard-card {
+	display:none;
+}
+.wizard-card.current {
+	display:block;
+}

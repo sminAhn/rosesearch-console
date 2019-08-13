@@ -1,0 +1,183 @@
+.fcol1 {width: 30px;}
+.fcol1-1 {width: 70px;}
+.fcol1-2 {width: 100px;}
+.fcol2 {width: 150px;}
+.fcol2-1 {width: 200px;}
+.fcol2-2 {width: 250px;}
+.fcol3 {width: 300px;}
+.fcol4 {width: 400px;}
+.fcol5 {width: 500px;}
+.fcol100 {width: 100%;}
+
+.dataWidth { width: 150px; }
+
+.form-actions-sm {
+  padding: 10px 20px 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #e5e5e5;
+  *zoom: 1;
+}
+.badge-sm {
+	padding: 3px 4px;
+}
+
+.table-fixed {
+	table-layout:fixed;
+}
+
+.table-fixed  td {
+	word-break:break-all;
+}
+
+.table-selectable tr {
+	cursor:pointer;
+}
+
+.btn-console {
+color: #ffffff;
+background-color: #416cb6;
+z-index: 2;
+}
+
+.select_flat {
+	background: url(../img/select_arrow.png) no-repeat right 10px top 12px #fff;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	/*appearance: none;*/
+	min-width: 100px;
+	height:	32px;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid #ccc;
+}
+
+.text-danger-imp{
+	color: #b94a48 !important;	
+}
+.text-success-imp{
+	color: #468847 !important;	
+}
+
+.fileContainer [type=file] {
+    cursor: inherit;
+    display: block;
+    font-size: 999px;
+    filter: alpha(opacity=0);
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+    cursor: pointer;
+}
+
+
+#modal_spinner {
+  color: #fff;
+  float: left;
+  width: 268px;
+  height: 268px;
+  margin: 0 20px 20px 0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+
+/*error page */
+body.error {
+background: #416cb6;height: 100%;
+}
+body.error .main {
+width:100%; padding-top: 90px;
+}
+body.error .wrapper {
+width: 600px;top: 90px;text-align: center;margin: 0 auto;
+}
+body.error .wrapper .code {
+color: #fff;
+font-size: 90px;
+/* text-align: center; */
+}
+body.error .wrapper .code span {
+margin-right: 15px;
+}
+body.error .buttons { text-align: center; margin-top:30px;}
+body.error .trace {
+	height:200px; border: 1px solid #fff; overflow: scroll; text-align: left; color: #fff;
+}
+body.error .trace_title {
+	color: #fff;
+}
+
+form.searchTest input, form.searchTest textarea, input.largeText {font-size: 18px !important;}
+
+.long2 {height:200px;}
+.long3 {height:300px;}
+.long4 {height:400px;}
+.long5 {height:500px;}
+.long6 {height:600px;}
+
+#searchResultModal .modal-dialog {width: 90%;}
+
+.group-panel-title {font-size: 12px !important; font-weight: bold;}
+.group-panel-title a {text-decoration:underline; font-weight:none; color:#1155cc;}
+
+.result-queryString {overflow-wrap: break-word;}
+
+label.has-error { color: #dd4b39 !important; }
+input.has-error { border-color: #dd4b39  !important; }
+
+.wordwrap { 
+   white-space: pre-wrap;      /* CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */    
+   white-space: -pre-wrap;     /* Opera <7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word;      /* IE */
+}
+
+td input[type=checkbox].edit { margin-top: 8px;}
+
+td.analysis-tools-detail div {line-height: 200%;}
+
+table.table-vertical-align-middle tbody tr td { vertical-align:middle; }
+
+.bottom-space-sm {margin-bottom: 7px;}
+
+ul.stats-sm li strong {font-size: 20px;padding:0;}
+ul.stats-sm li, ul.stats-sm li small {padding:0}
+
+.chart-medium { height: 200px;z-index: 90;overflow: hidden; }
+
+a.transparent,a.transparent:hover {color: #fff}
+
+.navbar .nav > li > span.host {
+	background-color: #2B4E8D;
+	color: #ffffff;
+	font-size: 13px;
+	text-shadow: 0 1px 0 #000000;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-left: 18px;
+	padding-right: 18px;
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+}
+.valign-top {vertical-align: top;}
+.display-inline {display:inline;}
+.modal-dialog-wide {width:900px;}
+.data-table-wrapper { overflow: scroll; height: 400px; }
+.show-link { text-decoration : underline; }
+.thick-left {border-left : 2px solid #bbb; }
+
+.hide2 {display:none;}
+
+.checked-background-color {background-color: rgba(147, 175, 236, 0.13)}
+
+.extra-column {display:none;}
+th.extra-column { background-color: cornsilk; }
+
