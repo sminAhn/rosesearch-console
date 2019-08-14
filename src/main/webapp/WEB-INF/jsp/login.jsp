@@ -61,7 +61,7 @@ $(document).ready(function(){
 <body class="login">
 	<!-- Logo -->
 	<div class="logo">
-		<strong>패스트캣</strong> 검색엔진
+		<strong>로즈시스템즈</strong> 검색엔진
 	</div>
 	<!-- /Logo -->
 
